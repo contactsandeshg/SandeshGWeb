@@ -1,0 +1,70 @@
+
+
+.HEADING-1 {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+   color: hsl(188, 71%, 19%);
+}
+.NAV-TAB {
+
+    text-align: center;
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: hsl(188, 71%, 19%)
+    
+   
+
+}
+
+a {
+text-decoration: none;
+color: #ffffff;
+
+    
+}
+
+a:hover {
+    background-color:hsl(188, 71%, 30%);
+    transition: background-color 0.3s ease-in-out;
+} 
+
+.image{
+    display: grid;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+    align-items: center;
+
+}
+
+.Bio{
+    border: solid;
+    margin-top: 20px;
+    
+    text-wrap: balance;
+}
+
+.Bio1 {
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+#contactID{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.bio2{
+
+    margin: 20px ;
+}
